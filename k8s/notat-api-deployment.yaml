@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: notat-api
-        image: ghcr.io/mapster/notes-app/notat-api:<image-tag>
+        image: ghcr.io/mapster/notes-app/notat-api:sha-9a325a6
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
